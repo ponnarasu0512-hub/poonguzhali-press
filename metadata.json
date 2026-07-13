@@ -1,0 +1,8 @@
+{
+  "name": "Poonguzhali Art Printers",
+  "description": "An ultra-premium website for Chennai's premier professional printing company, featuring high-end digital design, modular services catalog, and an interactive luxury quotation engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
