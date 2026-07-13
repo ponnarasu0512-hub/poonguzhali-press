@@ -8,7 +8,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact-us-section" className="py-24 bg-[#FAFAF8] relative overflow-hidden">
+    <section id="contact-us-section" className="py-fluid-section bg-[#FAFAF8] relative overflow-hidden">
       {/* Background radial effects */}
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#CFA15D]/5 rounded-full blur-[100px] pointer-events-none" />
 
@@ -19,11 +19,11 @@ export default function Contact() {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
             IMMEDIATE ENGAGEMENT
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-black text-[#111111] tracking-tight uppercase leading-none">
+          <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
             Let’s craft <br />
             <span className="text-[#CFA15D]">together.</span>
           </h2>
-          <p className="text-[#111111]/70 text-lg">
+          <p className="text-[#111111]/70 text-sm md:text-base lg:text-lg">
             Visit our corporate showroom in Aminjikarai, Chennai, or initiate an instant design dialogue with our print masters online.
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function Contact() {
                 <MapPin className="w-6 h-6" />
               </div>
               <div className="space-y-1">
-                <span className="text-[10px] font-black tracking-widest text-[#D72638] uppercase">CHENNNAI SHOWROOM HQ</span>
+                <span className="text-[10px] font-black tracking-widest text-[#D72638] uppercase">CHENNAI SHOWROOM HQ</span>
                 <h3 className="font-sans font-bold text-lg text-[#111111] uppercase tracking-tight">Poonguzhali Art Printers</h3>
                 <p className="text-xs text-gray-500 leading-relaxed font-semibold">
                   New-521 Old-302, Poonamallee High Road,<br />

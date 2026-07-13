@@ -21,7 +21,7 @@ export default function Process() {
   };
 
   return (
-    <section id="process-timeline-section" className="py-24 bg-white relative overflow-hidden">
+    <section id="process-timeline-section" className="py-fluid-section bg-white relative overflow-hidden">
       {/* Background grid details */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none" />
 
@@ -32,10 +32,10 @@ export default function Process() {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
             THE LITHO JOURNEY
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl font-black text-[#111111] tracking-tight uppercase">
+          <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase">
             HOW WE MAKE IT <span className="text-[#CFA15D]">REAL.</span>
           </h2>
-          <p className="text-[#111111]/60 text-base leading-relaxed">
+          <p className="text-[#111111]/60 text-sm md:text-base leading-relaxed">
             Every millimeter of ink, deboss depth, and folding alignment is carefully engineered across nine strict production gates. Click any step below to see inside the machine.
           </p>
         </div>

@@ -5,3 +5,50 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
+
+/* Fluid typography utility classes */
+.text-fluid-hero {
+  font-size: clamp(2.1rem, 6.5vw, 4.8rem);
+  line-height: 1.05;
+}
+
+.text-fluid-section {
+  font-size: clamp(1.6rem, 4vw, 2.8rem);
+  line-height: 1.1;
+}
+
+.text-fluid-card {
+  font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+  line-height: 1.25;
+}
+
+.text-fluid-body {
+  font-size: clamp(0.9rem, 1.25vw, 1.05rem);
+}
+
+.text-fluid-button {
+  font-size: clamp(0.8rem, 1vw, 0.95rem);
+}
+
+/* Fluid section paddings */
+.py-fluid-section {
+  padding-top: clamp(3rem, 8vw, 9rem);
+  padding-bottom: clamp(3rem, 8vw, 9rem);
+}
+
+.pt-fluid-section {
+  padding-top: clamp(3rem, 8vw, 9rem);
+}
+
+.pb-fluid-section {
+  padding-bottom: clamp(3rem, 8vw, 9rem);
+}
+
+/* Safe areas support */
+.safe-pb {
+  padding-bottom: env(safe-area-inset-bottom, 24px);
+}
+
+.safe-pt {
+  padding-top: env(safe-area-inset-top, 24px);
+}

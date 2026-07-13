@@ -34,7 +34,7 @@ export default function Products({ onPreFillQuote }: ProductsProps) {
   }, [searchTerm, selectedCategory]);
 
   return (
-    <section id="products-catalog-section" className="py-24 bg-white relative">
+    <section id="products-catalog-section" className="py-fluid-section bg-white relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Editorial Heading Block */}
@@ -43,11 +43,11 @@ export default function Products({ onPreFillQuote }: ProductsProps) {
             <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
               THE IMPRINT CATALOGUE
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-black text-[#111111] tracking-tight uppercase leading-none">
+            <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
               Crafted Products. <br />
               <span className="text-[#CFA15D]">Physical Masterpieces.</span>
             </h2>
-            <p className="text-[#111111]/60 text-lg">
+            <p className="text-[#111111]/60 text-sm md:text-base lg:text-lg">
               Explore our comprehensive print options, built on century-old design guidelines and modernized using automated high-speed German precision machinery.
             </p>
           </div>

@@ -11,7 +11,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq-section" className="py-24 bg-white relative">
+    <section id="faq-section" className="py-fluid-section bg-white relative">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         
         {/* Editorial Heading */}
@@ -19,10 +19,10 @@ export default function FAQ() {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
             COMMON QUERIES
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl font-black text-[#111111] tracking-tight uppercase">
+          <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase">
             SENSORY FAQ.
           </h2>
-          <p className="text-gray-400 text-sm">
+          <p className="text-[#111111]/60 text-sm">
             Everything you need to know about paper weights, Heidelberg offset plate configurations, and delivery schedules in South India.
           </p>
         </div>

@@ -75,7 +75,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about-us-section" className="py-24 bg-white relative overflow-hidden">
+    <section id="about-us-section" className="py-fluid-section bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         
         {/* Company Mission/Vision Intro (Editorial Banner layout) */}
@@ -84,11 +84,11 @@ export default function About() {
             <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
               POONGUZHALI LEGACY
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-black text-[#111111] tracking-tight uppercase leading-none">
+            <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
               Where paper <br />
               <span className="text-[#CFA15D]">becomes art.</span>
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed font-serif italic">
+            <p className="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed font-serif italic">
               "We believe print is a sensory conversation. It is not just ink laid over fibers; it is the weight, the tactile bite of debossing, the cold luxury of metallic leaf, and the crisp snap of opening an engineered box."
             </p>
           </div>

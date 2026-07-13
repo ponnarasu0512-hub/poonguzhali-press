@@ -89,13 +89,17 @@ export default function QuoteForm({ preFilledProduct }: QuoteFormProps) {
 
   const quantities = [100, 250, 500, 1000, 2500, 5000];
 
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
   const handleNext = () => {
+    setErrorMessage(null);
     if (currentStep < 7) {
       setCurrentStep(currentStep + 1);
     }
   };
 
   const handleBack = () => {
+    setErrorMessage(null);
     if (currentStep > 1) {
       setCurrentStep(currentStep - 1);
     }
@@ -128,13 +132,15 @@ export default function QuoteForm({ preFilledProduct }: QuoteFormProps) {
     e.preventDefault();
     // Validate contact info at least
     if (!formData.name || !formData.email || !formData.phone) {
-      alert('Please provide contact information to generate your quotation plates.');
+      setErrorMessage('Please provide your name, email, and phone number to generate your quotation plates.');
       return;
     }
+    setErrorMessage(null);
     setIsSubmitted(true);
   };
 
   const handleReset = () => {
+    setErrorMessage(null);
     setFormData({
       product: 'Luxury Business Cards',
       otherProduct: '',
@@ -168,7 +174,7 @@ export default function QuoteForm({ preFilledProduct }: QuoteFormProps) {
   ];
 
   return (
-    <section id="quote-form-section" className="py-24 bg-[#FAFAF8] relative overflow-hidden">
+    <section id="quote-form-section" className="py-fluid-section bg-[#FAFAF8] relative overflow-hidden">
       {/* Background visual graphics */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#CFA15D]/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#D72638]/5 rounded-full blur-[140px] pointer-events-none" />
@@ -180,7 +186,7 @@ export default function QuoteForm({ preFilledProduct }: QuoteFormProps) {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
             DIGITAL QUOTATION PLATE
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl font-black text-[#111111] tracking-tight uppercase leading-none">
+          <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
             SPECIFY YOUR <br />
             <span className="text-[#CFA15D]">IMPRINT STRATEGY.</span>
           </h2>
@@ -633,43 +639,54 @@ export default function QuoteForm({ preFilledProduct }: QuoteFormProps) {
                 </div>
 
                 {/* Wizard Footer Controls */}
-                <div className="flex items-center justify-between pt-6 border-t border-gray-100">
-                  <button
-                    id="quote-back-btn"
-                    type="button"
-                    onClick={handleBack}
-                    disabled={currentStep === 1}
-                    className={`flex items-center space-x-2 px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-wider transition-all border cursor-pointer ${
-                      currentStep === 1
-                        ? 'opacity-30 border-gray-200 text-gray-300 pointer-events-none'
-                        : 'bg-white border-gray-200 text-[#111111] hover:bg-gray-100'
-                    }`}
-                  >
-                    <ChevronLeft className="w-4 h-4" />
-                    <span>Back</span>
-                  </button>
-
-                  {currentStep < 7 ? (
-                    <button
-                      id="quote-next-btn"
-                      type="button"
-                      onClick={handleNext}
-                      className="flex items-center space-x-2 px-6 py-2.5 rounded-full bg-[#111111] text-white text-xs font-black uppercase tracking-widest hover:bg-[#D72638] transition-all cursor-pointer"
+                <div className="space-y-4 pt-6 border-t border-gray-100">
+                  {errorMessage && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 5 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="p-3 bg-[#D72638]/10 border border-[#D72638]/20 rounded-xl text-xs text-[#D72638] font-bold"
                     >
-                      <span>Continue</span>
-                      <ChevronRight className="w-4 h-4" />
-                    </button>
-                  ) : (
-                    <button
-                      id="quote-submit-btn"
-                      type="button"
-                      onClick={handleSubmit}
-                      className="flex items-center space-x-2 px-8 py-3 rounded-full bg-[#D72638] text-white text-xs font-black uppercase tracking-widest hover:bg-[#111111] transition-all cursor-pointer"
-                    >
-                      <span>Submit Specifications</span>
-                      <CheckCircle className="w-4 h-4" />
-                    </button>
+                      {errorMessage}
+                    </motion.div>
                   )}
+                  <div className="flex items-center justify-between">
+                    <button
+                      id="quote-back-btn"
+                      type="button"
+                      onClick={handleBack}
+                      disabled={currentStep === 1}
+                      className={`flex items-center space-x-2 px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-wider transition-all border cursor-pointer ${
+                        currentStep === 1
+                          ? 'opacity-30 border-gray-200 text-gray-300 pointer-events-none'
+                          : 'bg-white border-gray-200 text-[#111111] hover:bg-gray-100'
+                      }`}
+                    >
+                      <ChevronLeft className="w-4 h-4" />
+                      <span>Back</span>
+                    </button>
+
+                    {currentStep < 7 ? (
+                      <button
+                        id="quote-next-btn"
+                        type="button"
+                        onClick={handleNext}
+                        className="flex items-center space-x-2 px-6 py-2.5 rounded-full bg-[#111111] text-white text-xs font-black uppercase tracking-widest hover:bg-[#D72638] transition-all cursor-pointer"
+                      >
+                        <span>Continue</span>
+                        <ChevronRight className="w-4 h-4" />
+                      </button>
+                    ) : (
+                      <button
+                        id="quote-submit-btn"
+                        type="button"
+                        onClick={handleSubmit}
+                        className="flex items-center space-x-2 px-8 py-3 rounded-full bg-[#D72638] text-white text-xs font-black uppercase tracking-widest hover:bg-[#111111] transition-all cursor-pointer"
+                      >
+                        <span>Submit Specifications</span>
+                        <CheckCircle className="w-4 h-4" />
+                      </button>
+                    )}
+                  </div>
                 </div>
 
               </div>

@@ -13,7 +13,7 @@ export default function Services({ onGetQuote }: ServicesProps) {
   const activeService = SERVICES.find((s) => s.id === activeServiceId) || SERVICES[0];
 
   return (
-    <section id="services-section" className="py-24 bg-[#FAFAF8] relative overflow-hidden">
+    <section id="services-section" className="py-fluid-section bg-[#FAFAF8] relative overflow-hidden">
       {/* Background aesthetics */}
       <div className="absolute top-1/2 left-0 w-[600px] h-[600px] bg-[#D72638]/5 rounded-full blur-[140px] pointer-events-none" />
 
@@ -23,11 +23,11 @@ export default function Services({ onGetQuote }: ServicesProps) {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
             OUR PRINT CAPABILITIES
           </span>
-          <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-black text-[#111111] tracking-tight uppercase leading-none">
+          <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
             Manufacturing <br />
             <span className="text-[#CFA15D]">Excellence.</span>
           </h2>
-          <p className="text-[#111111]/70 text-lg leading-relaxed">
+          <p className="text-[#111111]/70 text-sm md:text-base lg:text-lg leading-relaxed">
             From high-volume commercial lithography to short-run digital variable data, our Chennai plant runs specialized machinery calibrated to deliver breathtaking consistency.
           </p>
         </div>

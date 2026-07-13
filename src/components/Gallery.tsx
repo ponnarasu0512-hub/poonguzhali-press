@@ -27,7 +27,7 @@ export default function Gallery({ onPreFillQuote }: GalleryProps) {
   }, [selectedFilter]);
 
   return (
-    <section id="portfolio-gallery-section" className="py-24 bg-[#FAFAF8] relative overflow-hidden">
+    <section id="portfolio-gallery-section" className="py-fluid-section bg-[#FAFAF8] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Editorial Heading Block */}
@@ -36,11 +36,11 @@ export default function Gallery({ onPreFillQuote }: GalleryProps) {
             <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">
               PHYSICAL ARTIFACTS
             </span>
-            <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-black text-[#111111] tracking-tight uppercase leading-none">
+            <h2 className="font-sans text-fluid-section font-black text-[#111111] tracking-tight uppercase leading-none">
               The Imprint <br />
               <span className="text-[#CFA15D]">Gallery.</span>
             </h2>
-            <p className="text-[#111111]/60 text-lg leading-relaxed">
+            <p className="text-[#111111]/60 text-sm md:text-base lg:text-lg leading-relaxed">
               Browse through our visual museum of gold foil stamping, deep-cut debossing, rigid structural cases, and high-fidelity Giclée exhibition prints.
             </p>
           </div>
