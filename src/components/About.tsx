@@ -53,27 +53,6 @@ export default function About() {
     }
   ];
 
-  const team = [
-    {
-      name: 'Mrs. S. Poonguzhali',
-      role: 'Founder & Managing Director',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400',
-      bio: 'A visionary print technician who established the company in 2005, blending historic letterpress values with German automation.'
-    },
-    {
-      name: 'Mr. R. Swaminathan',
-      role: 'Chief Pre-Press & Operations Director',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400',
-      bio: 'With 22+ years in print engineering, Swaminathan oversees digital plate imposition, color profiles, and spectrophotometry.'
-    },
-    {
-      name: 'Mr. A. Senthil Kumar',
-      role: 'Master of Bindery & Structural Design',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400',
-      bio: 'Senthil turns conceptual artwork into physical structures. He manages platen press tooling, Smyth thread sewing, and rigid board assembly.'
-    }
-  ];
-
   return (
     <section id="about-us-section" className="py-fluid-section bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
@@ -96,7 +75,7 @@ export default function About() {
           <div className="lg:col-span-6">
             <div className="aspect-[16/10] rounded-[28px] overflow-hidden shadow-xl border border-gray-100 relative group">
               <img
-                src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=1200"
+                src="https://cdn.phototourl.com/free/2026-07-13-83fb3de5-cd2f-4567-8322-d5a5217c5170.jpg"
                 alt="Aesthetic paper sample catalog"
                 className="w-full h-full object-cover transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -168,42 +147,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Master Artisans Team Section */}
-        <div className="space-y-12">
-          <div className="text-center max-w-2xl mx-auto">
-            <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D72638]">MASTER CRAFTSMEN</span>
-            <h3 className="font-sans text-2xl md:text-3xl font-black text-[#111111] tracking-tight uppercase mt-1">
-              THE IMPRINT TEAM
-            </h3>
-            <p className="text-gray-400 text-xs">A collective of design directors, color calibrators, and structural assembly engineers.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((person, idx) => (
-              <div
-                key={idx}
-                className="bg-[#FAFAF8] rounded-[28px] border border-gray-200/50 overflow-hidden shadow-sm group hover:border-[#CFA15D]/60 transition-all duration-500"
-              >
-                <div className="aspect-[4/3] relative overflow-hidden">
-                  <img
-                    src={person.image}
-                    alt={person.name}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 duration-700"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <div className="p-6 space-y-3">
-                  <div>
-                    <h4 className="font-sans text-base font-bold text-[#111111] leading-tight">{person.name}</h4>
-                    <span className="text-[10px] font-black tracking-wider text-[#CFA15D] uppercase mt-0.5 block">{person.role}</span>
-                  </div>
-                  <p className="text-xs text-gray-500 leading-relaxed">{person.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Team section removed */}
 
       </div>
     </section>

@@ -6,7 +6,7 @@ export const PRODUCTS: Product[] = [
     name: 'Luxury Business Cards',
     category: 'corporate',
     categoryLabel: 'Corporate Stationery',
-    image: 'https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-ed2f9a66-40b1-43b2-afa2-963538a1abe9.jpg',
     description: 'Create unforgettable first impressions with our ultra-thick, premium tactile business cards featuring bespoke finishing options.',
     applications: ['Executive Networking', 'Luxury Brand Representation', 'Corporate Stationery Systems'],
     sizes: ['85 x 55 mm (European standard)', '90 x 50 mm (Asian standard)', '3.5" x 2.0" (US standard)', 'Custom shapes'],
@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '2 - 4 Business Days',
     startingPrice: '₹499 for 100 units',
     gallery: [
-      'https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?auto=format&fit=crop&q=80&w=600',
+      'https://cdn.phototourl.com/free/2026-07-13-ed2f9a66-40b1-43b2-afa2-963538a1abe9.jpg',
       'https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&q=80&w=600'
     ],
     features: ['Handcrafted edge gilding', 'Debossed typography', 'Bespoke die-cut contours']
@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     name: 'Couture Wedding Invitations',
     category: 'wedding',
     categoryLabel: 'Fine Wedding Suite',
-    image: 'https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-844bbaf7-a406-478f-aa3b-cd5f4c5c8989.jpg',
     description: 'Exquisite wedding invitation suites. Sculpted hot foil stamping on pristine heavy stock that mirrors your monumental milestone.',
     applications: ['Luxury Wedding Invitations', 'Save the Date Cards', 'RSVP Cards', 'Ceremony Menus'],
     sizes: ['5" x 7" (Standard Invitation)', '4.25" x 6" (Details/RSVP)', 'Custom Die-Cut Arches'],
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '5 - 7 Business Days',
     startingPrice: '₹4,500 per custom suite of 50',
     gallery: [
-      'https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&q=80&w=600',
+      'https://cdn.phototourl.com/free/2026-07-13-844bbaf7-a406-478f-aa3b-cd5f4c5c8989.jpg',
       'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=600'
     ],
     features: ['Ribbon/Wax sealing', 'Handmade envelope liners', 'Metallic edge gilding']
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
     name: 'Artisan Hardcover Books',
     category: 'editorial',
     categoryLabel: 'Editorial & Book Binding',
-    image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-aa0265bb-16ef-4304-a7f5-50bfb9de70f2.jpg',
     description: 'Expertly bound literary works, poetry anthologies, and museum catalogues. Traditional Smyth-sewn luxury bindings built to last.',
     applications: ['Art Portfolios', 'Luxury Novels', 'Monographs', 'Limited-Edition Collections'],
     sizes: ['A4 Portrait', 'A5 Compact', '10" x 10" Square Artbook', 'Bespoke sizes'],
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '7 - 12 Business Days',
     startingPrice: '₹12,500 for low-run premium books',
     gallery: [
-      'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-aa0265bb-16ef-4304-a7f5-50bfb9de70f2.jpg'
     ],
     features: ['Cloth-wrapped cover boards', 'Bespoke printed slipcases', 'Smyth-sewn thread bind']
   },
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     name: 'Premium Product Packaging',
     category: 'packaging',
     categoryLabel: 'Luxury Packaging',
-    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-db471f04-ad63-4597-a4d5-a29a212ce3d0.jpg',
     description: 'Bespoke structural packaging designed to elevate the unboxing experience. Robust material selection married to surgical graphic print execution.',
     applications: ['Cosmetics Boxes', 'High-End Technology Packaging', 'Luxury Gift Containers'],
     sizes: ['Fully custom structural dies', 'Auto-locking boxes', 'Tuck-end packaging'],
@@ -117,7 +117,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '8 - 14 Business Days',
     startingPrice: 'Contact for structural mockup',
     gallery: [
-      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=600',
+      'https://cdn.phototourl.com/free/2026-07-13-db471f04-ad63-4597-a4d5-a29a212ce3d0.jpg',
       'https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&q=80&w=600'
     ],
     features: ['Magnetic closures', 'Custom die-cut foam/inserts', 'Interior brand message printing']
@@ -127,7 +127,7 @@ export const PRODUCTS: Product[] = [
     name: 'Elite Corporate Stationery',
     category: 'corporate',
     categoryLabel: 'Corporate Stationery',
-    image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-81e062ee-1aca-4f81-b22f-3cda6c3203a0.jpg',
     description: 'Unified corporate identity packages featuring bespoke letterheads, envelopes, note cards, and presentation folders.',
     applications: ['Legal Briefs', 'MNC Branding Packages', 'Private Client Communications'],
     sizes: ['A4 Letterhead', 'DL, C5, and C4 Envelopes', 'Custom folders'],
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '3 - 5 Business Days',
     startingPrice: '₹2,499 for full starter suite',
     gallery: [
-      'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-81e062ee-1aca-4f81-b22f-3cda6c3203a0.jpg'
     ],
     features: ['Security watermarked paper options', 'Peel & Seal envelope linings', 'Laser-safe laser-printer compatible inks']
   },
@@ -156,7 +156,7 @@ export const PRODUCTS: Product[] = [
     name: 'Architectural Brochures',
     category: 'promotional',
     categoryLabel: 'Marketing Collateral',
-    image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-be3cd100-57ab-42f6-afd4-a30b47838121.jpg',
     description: 'Impeccable corporate profiles, real estate prospectuses, and museum guides printed with striking color fidelity.',
     applications: ['Real Estate Prospectus', 'Luxury Brand Foldouts', 'Museum Exhibition Brochures'],
     sizes: ['A4 Trifold', 'A5 Booklet-style Folder', 'Wide Gatefolds', 'Bespoke folds'],
@@ -176,7 +176,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '4 - 6 Business Days',
     startingPrice: '₹1,999 for 50 trifold brochures',
     gallery: [
-      'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-be3cd100-57ab-42f6-afd4-a30b47838121.jpg'
     ],
     features: ['Perfect cross-creasing to prevent cracking', 'Accurate spot UV overlays', 'High durability scoring']
   },
@@ -185,7 +185,7 @@ export const PRODUCTS: Product[] = [
     name: 'Premium Brand Catalogues',
     category: 'editorial',
     categoryLabel: 'Editorial & Book Binding',
-    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-d4051df1-d04b-46fb-8045-d919ebfb6fc8.jpg',
     description: 'High-volume wholesale and high-fashion retail catalogues. Crafted to showcase your products with uncompromising photographic detail.',
     applications: ['Jewelry Collections', 'Fashion Lookbooks', 'Automobile Catalogues'],
     sizes: ['A4 Standard', '30 x 30 cm Square Deluxe', 'A5 landscape'],
@@ -205,7 +205,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '5 - 9 Business Days',
     startingPrice: 'Contact for bulk printing discounts',
     gallery: [
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-d4051df1-d04b-46fb-8045-d919ebfb6fc8.jpg'
     ],
     features: ['PUR adhesive spine binding', 'Smyth-sewn sections', 'Gatefold insert sheets']
   },
@@ -214,7 +214,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bespoke Textured Labels',
     category: 'packaging',
     categoryLabel: 'Luxury Packaging',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-77f14ca4-eb49-4229-8976-def165ecde47.jpg',
     description: 'Uncompromising artisanal roll or sheet-fed product labels with gold foil highlights and water-resistant finishes.',
     applications: ['Wine & Spirits Bottles', 'Luxury Apothecary Jars', 'Organic Cosmetics Packaging'],
     sizes: ['Custom die-cut contours', 'Geometric circles, ovals, rounded rectangles'],
@@ -235,7 +235,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '3 - 5 Business Days',
     startingPrice: '₹1,500 for roll of 500 custom labels',
     gallery: [
-      'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-77f14ca4-eb49-4229-8976-def165ecde47.jpg'
     ],
     features: ['Water & ice resistant adhesive', 'Ultra-sharp micro-typography', 'Precise laser die-cutting']
   },
@@ -272,7 +272,7 @@ export const PRODUCTS: Product[] = [
     name: 'Fine-Art Large Banners',
     category: 'promotional',
     categoryLabel: 'Marketing Collateral',
-    image: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-4e5525ab-10cf-4e4c-83a1-b96879b058dc.jpg',
     description: 'Commanding physical displays for corporate showrooms, architectural exhibits, and trade shows, printed with premium UV stable dyes.',
     applications: ['Exhibition Fabric Backdrops', 'Museum Wall Banners', 'Showroom Displays'],
     sizes: ['Rollup 85 x 200 cm', 'Exhibition Walls 3x3 meters', 'Unlimited bespoke dimensions'],
@@ -289,7 +289,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '2 - 3 Business Days',
     startingPrice: '₹1,200 for rollup banner with premium stand',
     gallery: [
-      'https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-4e5525ab-10cf-4e4c-83a1-b96879b058dc.jpg'
     ],
     features: ['Solid anodized aluminum stands', 'Scratch-resistant inks', 'Rust-proof metal eyelets']
   },
@@ -324,7 +324,7 @@ export const PRODUCTS: Product[] = [
     name: 'Security Archival Certificates',
     category: 'corporate',
     categoryLabel: 'Corporate Stationery',
-    image: 'https://images.unsplash.com/photo-1589330694653-ded6df039dd9?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-9a607e88-eed2-45fa-a6df-cbd2284dbb42.jpg',
     description: 'Secure, prestigious awards and certificates printed on museum-grade parchment with security guilloché patterns and foil elements.',
     applications: ['University Degrees', 'Corporate Awards', 'Prestigious Accreditations'],
     sizes: ['A4 Standard', 'A3 Deluxe Frame', 'US Letter Format'],
@@ -342,7 +342,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '3 - 5 Business Days',
     startingPrice: '₹1,500 custom engraving plate fee + ₹25 per cert',
     gallery: [
-      'https://images.unsplash.com/photo-1589330694653-ded6df039dd9?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-9a607e88-eed2-45fa-a6df-cbd2284dbb42.jpg'
     ],
     features: ['High-resolution secure guilloche frame borders', 'Unique gold stamp foil seal', 'Surgical security serial numbering']
   },
@@ -351,7 +351,7 @@ export const PRODUCTS: Product[] = [
     name: 'Presentation Folders',
     category: 'corporate',
     categoryLabel: 'Corporate Stationery',
-    image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-c77d7953-280d-4084-a30a-744a6b06c432.jpg',
     description: 'Bespoke presentation folders with interlocking pockets, custom die-cut business card slits, and premium spot UV finishing.',
     applications: ['Corporate Investor Kits', 'Real Estate Contract Packs', 'Conference Materials'],
     sizes: ['Oversized A4 (holds up to 30 sheets A4)', 'Custom square document pockets'],
@@ -371,7 +371,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '4 - 7 Business Days',
     startingPrice: '₹3,499 for 100 presentation folders',
     gallery: [
-      'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-c77d7953-280d-4084-a30a-744a6b06c432.jpg'
     ],
     features: ['Gusset sizes available from 5mm to 10mm', 'Custom die-cut pocket shapes', 'Interlocking fold-and-assemble base']
   },
@@ -406,7 +406,7 @@ export const PRODUCTS: Product[] = [
     name: 'Holographic Vinyl Stickers',
     category: 'promotional',
     categoryLabel: 'Marketing Collateral',
-    image: 'https://images.unsplash.com/photo-1572945281861-68b291d0342a?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-9e5edcd9-f457-45e4-9b5a-e8f0e79c4172.jpg',
     description: 'Indestructible custom vinyl stickers. Waterproof, scratchproof, UV-resistant, and cut to any dynamic custom contour.',
     applications: ['Premium Brand Merchandise', 'Tech Equipment Labels', 'Streetwear Marketing campaigns'],
     sizes: ['Custom die-cut stickers', 'Standard circular, square, rectangular labels'],
@@ -424,7 +424,7 @@ export const PRODUCTS: Product[] = [
     deliveryTime: '2 - 4 Business Days',
     startingPrice: '₹499 for custom sheet of 100 labels',
     gallery: [
-      'https://images.unsplash.com/photo-1572945281861-68b291d0342a?auto=format&fit=crop&q=80&w=600'
+      'https://cdn.phototourl.com/free/2026-07-13-9e5edcd9-f457-45e4-9b5a-e8f0e79c4172.jpg'
     ],
     features: ['Heavy waterproof vinyl core', 'Zero-residue acrylic adhesive', 'Surgical-accuracy split backing for easy peel']
   },
@@ -490,7 +490,7 @@ export const SERVICES: Service[] = [
     title: 'Precision Offset Printing',
     tagline: 'The Gold Standard of High-Volume Color Fidelity',
     description: 'Our four-color Heidelberg and Komori sheet-fed offset presses deliver unmatched ink depth, color alignment, and paper versatility for large-scale production runs.',
-    image: 'https://images.unsplash.com/photo-1616077168712-fc6c788bf4ee?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-9126b1ae-b114-4592-8991-3c2d0a93525f.jpg',
     benefits: [
       'Extremely cost-effective for large quantities',
       'Flawless color accuracy utilizing spot Pantone PMS inks',
@@ -507,7 +507,7 @@ export const SERVICES: Service[] = [
       'Komori Lithrone G40 (4-Color high-speed Sheetfed Press)',
       'Kodak Trendsetter Direct-To-Plate (CTP) Laser Engraver'
     ],
-    gallery: ['https://images.unsplash.com/photo-1616077168712-fc6c788bf4ee?auto=format&fit=crop&q=80&w=600']
+    gallery: ['https://cdn.phototourl.com/free/2026-07-13-9126b1ae-b114-4592-8991-3c2d0a93525f.jpg']
   },
   {
     id: 'digital-printing',
@@ -586,7 +586,7 @@ export const SERVICES: Service[] = [
     title: 'Museum Large Format Printing',
     tagline: 'High Impact Graphics with Striking Detail',
     description: 'We scale your ideas to massive proportions without losing crisp definition or color accuracy. Perfect for gallery exhibition backdrops, shop banners, and architectural vinyl wrappers.',
-    image: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-4e5525ab-10cf-4e4c-83a1-b96879b058dc.jpg',
     benefits: [
       'UV-stable pigments that are lightfast and waterproof for outdoor exhibits',
       'Incredibly high print resolution up to 2400 DPI',
@@ -603,14 +603,14 @@ export const SERVICES: Service[] = [
       'SwissQprint Nyala 4 High-End UV Flatbed (3.2m bed size)',
       'Zünd G3 Digital Flatbed Precision Cutter and Router'
     ],
-    gallery: ['https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=600']
+    gallery: ['https://cdn.phototourl.com/free/2026-07-13-4e5525ab-10cf-4e4c-83a1-b96879b058dc.jpg']
   },
   {
     id: 'custom-finishing',
     title: 'Artisanal Finishing & Bindery',
     tagline: 'Where Craft Meets Precision Embellishments',
     description: 'True luxury lies in the final details. Our bindery department features master artisans executing complex folding, edge foil-gilding, Smyth book sewing, and embossing.',
-    image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-0ab52fe6-e68c-4da4-8bb2-3dd466c5273f.jpg',
     benefits: [
       'Durable custom spine bindings (hardcovers, PUR adhesive, Smyth-sewn)',
       'Tactile depth through custom magnesium-plate blind embossing',
@@ -627,7 +627,7 @@ export const SERVICES: Service[] = [
       'Wohlenberg High-Precision Guillotine Cutter',
       'Stey Heavy-Duty High-Pressure Foil Stamping & Embossing Machine'
     ],
-    gallery: ['https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=600']
+    gallery: ['https://cdn.phototourl.com/free/2026-07-13-0ab52fe6-e68c-4da4-8bb2-3dd466c5273f.jpg']
   }
 ];
 
@@ -685,7 +685,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Black Obsidian Stationery Suite',
     category: 'corporate',
     categoryLabel: 'Corporate Branding',
-    image: 'https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-ed2f9a66-40b1-43b2-afa2-963538a1abe9.jpg',
     description: 'Debossed gold foil highlights on 700gsm deep charcoal Italian cardstock.'
   },
   {
@@ -693,7 +693,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Minimalist Cosmetic Packaging',
     category: 'packaging',
     categoryLabel: 'Luxury Packaging',
-    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-db471f04-ad63-4597-a4d5-a29a212ce3d0.jpg',
     description: 'Structured cream matte paper boards with spot UV logo and clean typographic layout.'
   },
   {
@@ -701,7 +701,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'The Modern Monograph Art Book',
     category: 'books',
     categoryLabel: 'Books & Binding',
-    image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-aa0265bb-16ef-4304-a7f5-50bfb9de70f2.jpg',
     description: 'Smyth-sewn open spine book wrapped in natural rough-textured gray linen cloth.'
   },
   {
@@ -709,7 +709,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Gilded Floral Wedding Invitation',
     category: 'wedding',
     categoryLabel: 'Wedding Suite',
-    image: 'https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-844bbaf7-a406-478f-aa3b-cd5f4c5c8989.jpg',
     description: 'Sculpted deep embossing on hand-torn deckled organic cotton paper sheets.'
   },
   {
@@ -717,7 +717,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Pantone Spot-Color Letterhead',
     category: 'corporate',
     categoryLabel: 'Corporate Branding',
-    image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-81e062ee-1aca-4f81-b22f-3cda6c3203a0.jpg',
     description: 'High-speed 3-color offset printing on watermarked crisp wove executive paper.'
   },
   {
@@ -733,7 +733,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Wine Bottle Textured Label',
     category: 'packaging',
     categoryLabel: 'Luxury Packaging',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.phototourl.com/free/2026-07-13-77f14ca4-eb49-4229-8976-def165ecde47.jpg',
     description: 'Ice-water resistant antique cream paper with delicate debossed and copper foil highlights.'
   },
   {
